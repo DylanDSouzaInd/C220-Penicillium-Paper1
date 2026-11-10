@@ -1,0 +1,4 @@
+component	original	publication_aligned	change	validation
+biomass	scripts/03_BIOMASS/plot_C220_DSW_dry_biomass_final.py	publication_aligned_scripts/plot_C220_DSW_dry_biomass_PAPER1_CORRECTED.py	50% DSW Exp1 0.3575 -> 0.2575	source value corrected; run pending
+carbohydrate	scripts/02_CARBOHYDRATE/plot_crude_eps_per_g_biomass_A700_corrected_cli.py	publication_aligned_scripts/plot_crude_eps_per_g_biomass_A700_PAPER1_DILUTIONS.py	1:5 and 1:10 only in biological-replicate summaries	needs original assay inputs
+RNA-seq	scripts/04_RNASEQ/C220_GEO_verify_and_export_model_v7.R	unchanged	GSE353704 and saved model v7 audit documented	not independently re-run

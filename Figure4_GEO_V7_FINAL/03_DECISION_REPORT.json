@@ -1,0 +1,19 @@
+{
+  "scope": "Read-only 12 genes x 9 samples; compares plotted-count sources, NOT DESeq2 contrasts",
+  "model_file": "/data/dylan/C220_GEO_V7_MODEL_AUDIT_20261105/04_DESeq2_original_fitted_model_normalized_counts_8275.tsv",
+  "model_sha256": "075e8560aab0f54e349f08cc9e106e5342bf1c77d202ea562b90c828c7ec1af0",
+  "model_genes": 8275,
+  "legacy_file": "/data/dylan/01_ONT_PCRcDNARNASeq/salinity_rnaseq_analysis/10_final_thesis_paper_outputs/57_BGC_FIGURE5_AUTHENTIC_REBUILD/07_BGC_EXPRESSION_DESEQ2_FIGURE5/tables/05_all_genes_DESeq2_normalized_counts.tsv",
+  "legacy_sha256": "ecb41cb27e5888d8a6357aee2fd1f6f54d45c6e883f5e05f40de9f109f879fb6",
+  "legacy_genes": 13455,
+  "figure_audit_file": "/data/dylan/C220_PAPER1_AUTHENTIC_FIGURE4_20261024_143504/SOURCE_AUDIT.json",
+  "figure_source_status": "FIGURE_AUDIT_MATCHES_LEGACY_MATRIX",
+  "figure_audit_original_source": "/data/dylan/01_ONT_PCRcDNARNASeq/salinity_rnaseq_analysis/10_final_thesis_paper_outputs/57_BGC_FIGURE5_AUTHENTIC_REBUILD/07_BGC_EXPRESSION_DESEQ2_FIGURE5/tables/05_all_genes_DESeq2_normalized_counts.tsv",
+  "figure_audit_expected_sha256": "ecb41cb27e5888d8a6357aee2fd1f6f54d45c6e883f5e05f40de9f109f879fb6",
+  "compared_values": 108,
+  "identical_values": 22,
+  "genes_all_nine_exact": 0,
+  "maximum_abs_log10_count_difference": 0.4164456958238582,
+  "note": "Do not interpret arbitrary differences as statistically significant. Original DESeq2 p-values and contrasts are not changed.",
+  "decision": "If source hash matches legacy, source is confirmed as legacy; otherwise inspect the original Figure 4 SOURCE_AUDIT.json. Exact regenerated outputs require data and figure code execution."
+}
